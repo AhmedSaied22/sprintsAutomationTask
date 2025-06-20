@@ -18,8 +18,8 @@ Performed input validation and injection testing:
 | ID  | Title                      | Description                                           | Severity | Steps to Reproduce | Expected vs Actual |
 |-----|----------------------------|-------------------------------------------------------|----------|---------------------|--------------------|
 | 1   | Cart quantity not updating | When changing quantity in cart, total price stays same | Medium   | 1. Add item → 2. Change qty | Total price should update but doesn't |
-and please check excel file
-[Drive](https://docs.google.com/spreadsheets/d/1uZV7iLE72e8lBXsiv79D_1v64PSQyiX6/edit?usp=drive_link&ouid=113430173013318065519&rtpof=true&sd=true)
 ---
+and please check Excel file for All Test Cases and Bug Reports
+[Drive](https://docs.google.com/spreadsheets/d/1uZV7iLE72e8lBXsiv79D_1v64PSQyiX6/edit?usp=drive_link&ouid=113430173013318065519&rtpof=true&sd=true)
 
 📌 **Notes**: All bugs were reproducible and documented during testing on the Magento test site.
