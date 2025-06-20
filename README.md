@@ -1,7 +1,35 @@
 # E-commerce Website Testing with Selenium Automation
 
 ## Project Overview
-This project implements automated testing for critical functionalities of an e-commerce website using Selenium WebDriver with Java, TestNG, and Page Object Model (POM) design pattern. The tests cover product search, cart operations, and checkout processes.
+Automate and validate key user flows in the e-commerce experience:
+
+- Product search
+- Adding items to the cart
+- Completing a purchase
+
+
+## 🧪 Technologies Used
+
+- Java
+- Selenium WebDriver
+- TestNG
+- Maven
+- Page Object Model (POM)
+
+---
+## Project Structure
+```
+sprintsTask/
+├── src/
+│   ├── main/java/
+│   │   └── pages/           # Page Object classes
+│   └── test/java/
+│       ├── base/            # Base test setup
+│       ├── tests/           # Test classes
+│       └── utils/           # Utility classes
+├── pom.xml                  # Maven dependencies
+└── testng.xml              # TestNG configuration
+```
 
 ## Test Cases
 The project includes the following test cases:
@@ -20,19 +48,6 @@ The project includes the following test cases:
 - TC_010: Successful checkout using standard flow
 - TC_011: Checkout fails with missing required fields
 
-## Project Structure
-```
-sprintsTask/
-├── src/
-│   ├── main/java/
-│   │   └── pages/           # Page Object classes
-│   └── test/java/
-│       ├── base/            # Base test setup
-│       ├── tests/           # Test classes
-│       └── utils/           # Utility classes
-├── pom.xml                  # Maven dependencies
-└── testng.xml              # TestNG configuration
-```
 
 ## Setup Instructions
 
@@ -83,4 +98,9 @@ Basic security validation has been performed focusing on:
 - Common injection vulnerabilities (e.g., SQL injection, XSS)
 
 ## Manual Task
-in This Link https://docs.google.com/spreadsheets/d/1uZV7iLE72e8lBXsiv79D_1v64PSQyiX6/edit?usp=drive_link&ouid=113430173013318065519&rtpof=true&sd=true
+in This Link [Drive](https://docs.google.com/spreadsheets/d/1uZV7iLE72e8lBXsiv79D_1v64PSQyiX6/edit?usp=drive_link&ouid=113430173013318065519&rtpof=true&sd=true)
+🧑‍💻 Author
+Ahmed Saied
+📧 ahmed.saied22@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-saieed/)
+
