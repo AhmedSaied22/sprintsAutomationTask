@@ -87,7 +87,8 @@ mvn clean test -DsuiteXmlFile=testng.xml
 ```
 
 ## Test Reports
-After running the tests, TestNG generates reports in reports folder with screenshot folder.
+After running the tests, TestNG generates reports in reports folder with screenshot folder In Project Root.
+Test execution reports and screenshots are available in the [`reports/`](./reports) and [`screenshots/`](./screenshots) folders.
 
 ## Bug Reporting
 Any issues found during testing are documented in the `BugReport.md` file, prioritizing those that impact user experience or functionality.
